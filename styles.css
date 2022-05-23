@@ -123,6 +123,7 @@ header {
       min-height: 9vw;
       max-height: 15vw;
       max-width: 15vw;
+      font-size: 7vw;
     }
   }
 
@@ -231,4 +232,23 @@ h2 {
 }
 .hidden{
     display: none;
+}
+
+button.next-word{
+    display:inline-block;
+    height: 1.8rem;
+    padding:0.20em 1.2em;
+    border:0.2em solid rgb(58,58,60);
+    margin: 10 0.3;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight: 500;
+    font-size: 1rem;
+    color:rgb(180, 180, 180);
+    text-align: center;
+    background-color: transparent;
+    font-family: inherit;
+    letter-spacing: 2px;
+    cursor: pointer;
 }
