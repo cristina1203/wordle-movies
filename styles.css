@@ -60,6 +60,7 @@ header {
     flex-direction: column;
     overflow: hidden;
     padding-bottom: 40px;
+    width: 100%;
  }
 
 #final-score{
