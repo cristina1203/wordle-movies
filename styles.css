@@ -63,12 +63,6 @@ header {
     width: 100%;
  }
 
- @media only screen and (max-width: 540px) {
-    #board-container {
-      max-width: 400px;
-    }
-}
-
 #final-score{
     color: gainsboro;
 }
@@ -123,10 +117,12 @@ header {
     border-color: rgb(83, 141, 78);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
     .square {
-      min-width: 15vw;
-      min-height: 15vw;
+      min-width: 9vw;
+      min-height: 9vw;
+      max-height: 15vw;
+      max-width: 15vw;
     }
   }
 
