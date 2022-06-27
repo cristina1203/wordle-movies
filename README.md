@@ -1,1 +1,2 @@
-# web app inspired by wordle, using 9 letter movie titles
+# Wordle-inspired web app, using 9 letter movie titles
+
